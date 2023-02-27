@@ -1,4 +1,4 @@
 import client from './config'
-import startDatabase from './connection'
+import connectDatabase from './connection'
 
-export { client, startDatabase }
+export { client, connectDatabase }
